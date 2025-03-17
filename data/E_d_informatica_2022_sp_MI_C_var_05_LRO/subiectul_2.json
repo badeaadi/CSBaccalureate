@@ -1,0 +1,19 @@
+{
+    "subject_number": "II",
+    "total_points": "40",
+    "subject_title": "SUBIECTUL al II-lea",
+    "exercises": {
+        "1": {
+            "content": "Algoritmul alăturat este reprezentat în pseudocod. citeşte m,n\n (numere naturale nenule, m<n)\n x1\n┌cât timp x=1 execută\n│ xm; yn; nn-1\n│┌cât timp x≠y execută\n││┌dacă x>y atunci xx-y\n│││altfel yy-x\n││└■\n│└■\n└■\nscrie n+1\na. Scrieţi ce se afișează în urma executării algoritmului dacă se citesc,\nîn această ordine, valorile 21 și 47. (6p.)\nb. Dacă pentru variabila m se citeşte numărul 5, scrieţi două valori care pot\nfi citite pentru variabila n astfel încât, în urma executării algoritmului,\npentru fiecare dintre acestea, valoarea afişată să fie 10. (6p.)\nc. Scrieţi programul C/C++ corespunzător algoritmului dat. (10p.)\nd. Scrieţi în pseudocod un algoritm echivalent cu cel dat, înlocuind\nadecvat prima structură cât timp...execută cu o structură\nrepetitivă cu test final. (6p.)",
+            "exercise_number": "1"
+        },
+        "2": {
+            "content": "Un arbore cu 9 noduri, numerotate de la 1 la 9, are muchiile [1,8], [2,3], [2,5], [2,7], [4,5],\n[5,6], [5,8], [8,9]. Scrieți două noduri care pot fi alese drept rădăcină, astfel încât nodul 5 să aibă\ndoi “frați”. (6p.)",
+            "exercise_number": "2"
+        },
+        "3": {
+            "content": "Variabila x, declarată alăturat, memorează simultan un an\ncalendaristic și temperatura medie a aerului, măsurată în grade\nCelsius, înregistrată în București în anul respectiv.\nstruct meteo\n{ int an, temperatura;\n}x;\nScrieţi o secvență de instrucțiuni în urma executării căreia să se afișeze pe ecran mesajul CALDUROS\ndacă temperatura menționată a fost strict mai mare decât 11oC, mesajul RACOROS dacă temperatura\nmenționată a fost strict mai mică decât 10oC, sau mesajul NORMAL în orice alt caz. (6p.)\nSUBIECTUL al III-lea (30 de puncte)",
+            "exercise_number": "3"
+        }
+    }
+}

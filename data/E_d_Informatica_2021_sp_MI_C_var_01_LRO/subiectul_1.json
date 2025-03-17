@@ -1,0 +1,31 @@
+{
+    "subject_number": "I",
+    "total_points": "20",
+    "subject_title": "SUBIECTUL I",
+    "exercises": {
+        "1": {
+            "content": "Indicați o expresie C/C++ care are valoarea 1 dacă și numai dacă valorile variabilelor întregi x și y\nsunt numere pare.\na. x%2==0 && (y+1)%2!=0 b. (x-y)/2==0\nc. (x+y)%2==0 && (x-y)%2==0 d. x%2==y%2",
+            "exercise_number": "1"
+        },
+        "2": {
+            "content": "Subprogramul f este definit alăturat. Indicați\nvalorile pe care le pot avea parametrii n și c, astfel\nîncât, în urma apelului, f(n,c) să aibă valoarea",
+            "exercise_number": "2"
+        },
+        "2021": {
+            "content": "int f(int n,int c)\n{ if(n==0) return 0;\n else\n if(n%10==c) return f(n/10,c);\n else return n%10+10*f(n/10,c);\n}\na. n=2021 și c=0 b. n=200211 și c=2\nc. n=312032 și c=3 d. n=720721 și c=7",
+            "exercise_number": "2021"
+        },
+        "3": {
+            "content": "Variabila m memorează elementele unui tablou bidimensional cu 100 de linii și 100 de coloane,\nnumerotate de la 0 la 99. Indicați expresia C/C++ prin care poate fi accesat un element aflat pe\ndiagonala secundară a tabloului.\na. m[42/42] b. m[42|42] c. m[42]:[57] d. m[42][57]",
+            "exercise_number": "3"
+        },
+        "4": {
+            "content": "Un graf neorientat are 6 noduri, numerotate de la 1 la 6, și muchiile [1,2], [1,3], [2,3], [3,4],\n[3,5], [4,5], [5,6]. Indicați un ciclu elementar al acestui graf.\na. 1,2,3 b. 1,2,3,1 c. 1,2,3,4,5,3,1 d. 1,2,3,4,5,6,1",
+            "exercise_number": "4"
+        },
+        "5": {
+            "content": "Într-un arbore cu rădăcină un nod se află pe nivelul x dacă lanțul elementar care are o extremitate în\nnodul respectiv și cealaltă extremitate în rădăcina arborelui are lungimea x. Pe nivelul 0 se află un\nsingur nod (rădăcina).\nÎntr-un arbore cu rădăcină toate nodurile de pe același nivel au un număr egal de „fii” și nu există două\nniveluri diferite cu același număr de noduri. Indicați numărul minim de noduri de pe nivelul 3.\na. 12 b. 9 c. 8 d. 5\nMinisterul Educației\nCentrul Național de Politici și Evaluare în Educație\nProbă scrisă la INFORMATICĂ Varianta 1\nLimbajul C/C++\nFilieră teoretică, profil real, specializare matematică-informatică / matematică-informatică intensiv informatică\nFilieră vocațională, profil militar, specializare matematică-informatică\nPagina 2 din 2\nSUBIECTUL al II-lea (40 de puncte)",
+            "exercise_number": "5"
+        }
+    }
+}

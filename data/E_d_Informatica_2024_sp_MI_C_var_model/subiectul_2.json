@@ -1,0 +1,19 @@
+{
+    "subject_number": "II",
+    "total_points": "40",
+    "subject_title": "SUBIECTUL al II-lea",
+    "exercises": {
+        "1": {
+            "content": "Algoritmul alăturat este reprezentat în pseudocod.\nS-a notat cu a%b restul împărțirii numărului natural a la\nnumărul natural nenul b și cu [c] partea întreagă a\nnumărului real c.\ncitește n (număr natural nenul)\nm0; in\n┌cât timp i≥1 execută\n│ citește x (număr natural)\n│┌cât timp x%10 ≤ [x/10]%10 execută\n││ x[x/10]\n│└■\n│ mm+x; ii-1\n└■\n┌dacă m≠n atunci scrie m\n│altfel scrie „egal”\n└■\na. Scrieți ce se afișează dacă se citesc, în această\nordine, numerele 4, 721, 20020, 1321, 211. (6p.)\nb. Dacă primul număr citit este 2, scrieți un set de\nnumere distincte din intervalul [10,104] care pot fi\ncitite în continuare astfel încât, în urma executării\nalgoritmului, să se afișeze mesajul egal. (6p.)\nc. Scrieți programul C/C++ corespunzător algoritmului dat. (10p.)\nd. Scrieți în pseudocod un algoritm echivalent cu cel dat, înlocuind adecvat prima structură repetitivă cu o\nstructură de tip pentru...execută. (6p.)",
+            "exercise_number": "1"
+        },
+        "2": {
+            "content": "Variabila t memorează simultan, pentru un telefon, următoarele date: producătorul (o literă mare a\nalfabetului englez), frecvența procesorului (număr natural) și dimensiunea, dată prin trei valori,\nreprezentând lățimea, grosimea și lungimea, în această ordine, în milimetri (numere reale). Știind că\nexpresiile C/C++ de mai jos au ca valori producătorul și lățimea telefonului, respectiv frecvența\nprocesorului acestuia, scrieți definiția unei structuri cu eticheta telefon, care permite memorarea datelor\ndespre un telefon, și declarați corespunzător variabila t.\nt.producator t.dimensiune[0] t.frecventa (6p.)",
+            "exercise_number": "2"
+        },
+        "3": {
+            "content": "Variabila i este de tip întreg, iar variabila a memorează un tablou bidimensional cu 4 linii și 24 de coloane,\nnumerotate începând cu 0, cu elemente numere întregi. Fără a utiliza alte variabile decât cele menționate,\nscrieți o secvență de instrucțiuni în urma executării căreia să se afișeze pe ecran, separate prin câte un\nspațiu, indicii coloanelor cu proprietatea că atât primul, cât și ultimul lor element, au valoarea 2024. (6p.)\nSUBIECTUL al III-lea (30 de puncte)",
+            "exercise_number": "3"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "subject_number": "I",
+    "total_points": "20",
+    "subject_title": "SUBIECTUL I",
+    "exercises": {
+        "1": {
+            "content": "Indicați valoarea expresiei C/C++ alăturate. 3+5.0/2+2\na. 2 b. 5 c. 6 d. 7.5",
+            "exercise_number": "1"
+        },
+        "2": {
+            "content": "Variabila v memorează un tablou unidimensional cu\n4 elemente, numerotate începând de la 0.\nSubprogramul f este definit alăturat.\nvoid f(int i, int v[4])\n{ if(i>=3) v[i]=v[i]+1;\n else f(i+1,v);\n cout<<v[i]; | printf(\"%d\",v[i]);\n}\nIndicați setul de elemente pe care le poate avea tabloul memorat în v, în ordinea în care apar în acesta,\nastfel încât, în urma apelului de mai jos, să se afișeze pe ecran 2020.\nf(0,v);\na. -1,1,0,2 b. 0,2,0,1 c. 1,-1,0,1 d. 2,0,1,0",
+            "exercise_number": "2"
+        },
+        "3": {
+            "content": "Utilizând metoda backtracking se generează toate variantele prin care patru persoane pot plăti o\nconsumație totală de 200 de lei în următoarele condiții:\n• fiecare plătește o sumă nenulă, divizibilă cu 10;\n• primul plătește mai mult decât al doilea, al doilea mai mult decât al treilea, iar acesta mai mult decât al\npatrulea.\nO soluție constă în patru valori, reprezentând, în ordine, sumele plătite de fiecare dintre cele patru persoane.\nPrimele patru soluții generate sunt, în această ordine: (70, 60, 40, 30), (70, 60, 50, 20), (80, 50, 40, 30),\n(80, 60, 40, 20). Indicați cea de a șasea soluție, în ordinea generării acestora.\na. (80,60,45,15) b. (80,60,50,10) c. (80,70,30,20) d. (80,70,40,10)",
+            "exercise_number": "3"
+        },
+        "4": {
+            "content": "Un arbore cu 10 noduri, numerotate de la 1 la 10, este reprezentat prin vectorul de „tați”\n(7,5,6,5,7,0,6,3,3,8). Indicați numărul de noduri „frunză” ale acestui arbore.\na. 2 b. 3 c. 5 d. 6",
+            "exercise_number": "4"
+        },
+        "5": {
+            "content": "Un graf neorientat cu 5 noduri este reprezentat prin matricea de adiacență alăturată.\nIndicați numărul grafurilor parțiale conexe ale acestuia care sunt diferite de graful dat.\n0 1 0 1 1\n1 0 1 0 0\n0 1 0 1 0\n1 0 1 0 0\n1 0 0 0 0\na. 4 b. 6 c. 8 d. 30\n \nMinisterul Educației și Cercetării\nCentrul Național de Politici și Evaluare în Educație\nProbă scrisă la informatică Varianta 6\nLimbajul C/C++\nFilieră teoretică, profil real, specializare matematică-informatică / matematică-informatică intensiv informatică\nFilieră vocaţională, profil militar, specializare matematică-informatică\nPagina 2 din 2\nSUBIECTUL al II-lea (40 de puncte)",
+            "exercise_number": "5"
+        }
+    }
+}

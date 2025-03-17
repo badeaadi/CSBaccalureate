@@ -1,0 +1,19 @@
+{
+    "subject_number": "II",
+    "total_points": "40",
+    "subject_title": "SUBIECTUL al II-lea",
+    "exercises": {
+        "1": {
+            "content": "Algoritmul alăturat este reprezentat în pseudocod.\nS-a notat cu a%b restul împărţirii numărului natural a la numărul natural\nnenul b, și cu [c] partea întreagă a numărului real c.\nciteşte x (număr natural)\n p1; m -1\n┌cât timp p≤x execută\n│ c[x/p]%10\n│┌dacă c>m atunci\n││ mc; pp*10\n││altfel\n││ x[x/(p*10)]*p+x%p\n│└■\n└■\n┌dacă m≥0 atunci scrie x\n│ altfel scrie \"nul\"\n└■\na. Scrieţi valoarea afişată dacă se citește numărul 6907512. (6p.)\nb. Scrieţi două valori distincte din intervalul [100,999] care pot fi\ncitite astfel încât, în urma executării algoritmului, pentru fiecare\ndintre acestea, să se afișeze o valoare identică cu cea citită. (6p.)\nc. Scrieţi programul C/C++ corespunzător algoritmului dat. (10p.)\nd. Scrieţi în pseudocod un algoritm, echivalent cu cel dat, înlocuind\nstructura cât timp...execută cu o structură repetitivă cu test\nfinal. (6p.)\nMinisterul Educației\nCentrul Național de Politici și Evaluare în Educație\nProbă scrisă la informatică Varianta 5\nLimbajul C/C++\nFilieră teoretică, profil real, specializare matematică-informatică / matematică-informatică intensiv informatică\nFilieră vocaţională, profil militar, specializare matematică-informatică\nPagina 2 din 2",
+            "exercise_number": "1"
+        },
+        "2": {
+            "content": "Utilizând metoda backtracking, se generează toate amestecurile de apă provenită din surse distincte din\nmulțimea {lac, mare, ocean, ploaie, râu}, astfel încât o sursă să fie de apă sărată și una sau două\nsurse să fie de apă dulce. Marea și oceanul sunt surse de apă sărată, iar lacul, ploaia și râul sunt surse\nde apă dulce. Două amestecuri sunt distincte dacă diferă prin cel puțin o sursă a apei. Primele patru\nsoluţii obţinute sunt, în această ordine: (lac, mare), (lac, mare, ploaie), (lac, mare, râu) şi\n(lac, ocean). Scrieți soluția generată imediat înainte și soluția generată imediat după\n(ocean, ploaie). (6p.)",
+            "exercise_number": "2"
+        },
+        "3": {
+            "content": "Variabila f memorează, pentru fiecare dintre cele 10 soiuri de lalele care se vând într-o florărie,\ncaracteristicile acestora: denumirea (șir de maximum 20 de caractere) și stocul, exprimat prin numărul\nde fire și prețul unui fir, în lei (numere naturale). Știind că expresiile de mai jos au ca valori denumirea\nprimului soi de lalele, respectiv suma, în lei, necesară pentru a cumpăra toate lalelele din acest soi,\nscrieți în limbajul C/C++ definiția unei structuri cu eticheta lalea, care să permită memorarea\ninformațiilor menționate pentru un soi de lalea, și declarați corespunzător variabila f.\nf[0].denumire f[0].stoc.nrFire*f[0].stoc.pretFir (6p.)\nSUBIECTUL al III-lea (30 de puncte)",
+            "exercise_number": "3"
+        }
+    }
+}

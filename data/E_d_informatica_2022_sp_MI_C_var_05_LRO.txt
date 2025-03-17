@@ -1,0 +1,111 @@
+SUBIECTUL I (20 de puncte)
+Pentru fiecare dintre itemii de la 1 la 5, scrieți pe foaia de examen litera corespunzătoare răspunsului
+corect. Fiecare răspuns corect se notează cu 4 puncte.
+1. Variabila x este de tip întreg. Indicați o expresie care are valoarea 1 dacă și
+numai dacă expresia C/C++ alăturată are valoarea 1.
+x>=3 && x<10
+a. !(x<3 && x>=10) b. !(x<3 || x>=10)
+c. x<3 && !(x>=10) d. !(x<3) || x>=10
+2. Subprogramul f este definit incomplet, alăturat. Indicați
+o expresie cu care pot fi înlocuite punctele de suspensie
+pentru ca f(n,3) să aibă valoarea 1 pentru orice număr
+prim n (n∈[2,104]) și valoarea 0 în caz contrar.
+int f(int x, int y)
+{ if(x!=2 && x%2==0) return 0;
+ if(y*y>x) return 1;
+ if(x%y==0) return 0;
+ return f(x,.........);
+}
+a. y+2 b. y-2 c. y*2 d. y/2
+3. Utilizând metoda backtracking, se generează toate posibilitățile de a forma platouri de câte trei fructe
+distincte din mulţimea {măr, gutuie, prună, caisă, piersică}, astfel încât pe același platou nu se
+află o gutuie și o piersică simultan. Două platouri sunt distincte dacă ele conțin cel puțin un fruct diferit.
+Primele patru soluţii generate sunt, în această ordine, (măr, gutuie, prună), (măr, gutuie, caisă),
+(măr, prună, caisă), (măr, prună, piersică).
+Indicați soluţia generată imediat după (gutuie, prună, caisă).
+a. (caisă, piersică, măr) b. (gutuie, prună, piersică)
+c. (mar, caisă, piersică) d. (prună, caisă, piersică)
+4. Variabila j este de tip întreg, iar variabila A memorează un tablou bidimensional cu 100 de linii și 100
+de coloane, numerotate de la 0 la 99. Indicați valoarea variabilei j, dacă elementul A[20][j] se află
+pe diagonala secundară a tabloului.
+a. 20 b. 49 c. 79 d. 80
+5. Un graf neorientat are 7 noduri, numerotate de la 1 la 7, și 8 muchii, dintre care șase sunt: [1,2],
+[2,4], [2,7], [3,4], [4,5], [4,6]. Știind că unul dintre lanțurile elementare care au lungimea
+maximă este 1, 2, 7, 5, 4, 6, indicați care ar putea fi celelalte două muchii ale grafului.
+a. [1,4] și [4,7] b. [1,4] și [5,7] c. [2,5] și [4,7] d. [3,6] și [5,7]
+ 
+Ministerul Educației
+Centrul Național de Politici și Evaluare în Educație
+Probă scrisă la informatică Varianta 5
+Limbajul C/C++
+Filieră teoretică, profil real, specializare matematică-informatică / matematică-informatică intensiv informatică
+Filieră vocațională, profil militar, specializare matematică-informatică
+Pagina 2 din 2
+SUBIECTUL al II-lea (40 de puncte)
+1. Algoritmul alăturat este reprezentat în pseudocod. citeşte m,n
+ (numere naturale nenule, m<n)
+ x1
+┌cât timp x=1 execută
+│ xm; yn; nn-1
+│┌cât timp x≠y execută
+││┌dacă x>y atunci xx-y
+│││altfel yy-x
+││└■
+│└■
+└■
+scrie n+1
+a. Scrieţi ce se afișează în urma executării algoritmului dacă se citesc,
+în această ordine, valorile 21 și 47. (6p.)
+b. Dacă pentru variabila m se citeşte numărul 5, scrieţi două valori care pot
+fi citite pentru variabila n astfel încât, în urma executării algoritmului,
+pentru fiecare dintre acestea, valoarea afişată să fie 10. (6p.)
+c. Scrieţi programul C/C++ corespunzător algoritmului dat. (10p.)
+d. Scrieţi în pseudocod un algoritm echivalent cu cel dat, înlocuind
+adecvat prima structură cât timp...execută cu o structură
+repetitivă cu test final. (6p.)
+2. Un arbore cu 9 noduri, numerotate de la 1 la 9, are muchiile [1,8], [2,3], [2,5], [2,7], [4,5],
+[5,6], [5,8], [8,9]. Scrieți două noduri care pot fi alese drept rădăcină, astfel încât nodul 5 să aibă
+doi “frați”. (6p.)
+3. Variabila x, declarată alăturat, memorează simultan un an
+calendaristic și temperatura medie a aerului, măsurată în grade
+Celsius, înregistrată în București în anul respectiv.
+struct meteo
+{ int an, temperatura;
+}x;
+Scrieţi o secvență de instrucțiuni în urma executării căreia să se afișeze pe ecran mesajul CALDUROS
+dacă temperatura menționată a fost strict mai mare decât 11oC, mesajul RACOROS dacă temperatura
+menționată a fost strict mai mică decât 10oC, sau mesajul NORMAL în orice alt caz. (6p.)
+SUBIECTUL al III-lea (30 de puncte)
+1. Subprogramul schimb are trei parametri:
+• n şi x, prin care primeşte câte un număr natural (n∈[0,108], x∈[1,9]);
+• p, prin care primește un număr natural reprezentând poziția unei cifre a numărului n (0≤p). Pozițiile
+cifrelor sunt numerotate de la dreapta la stânga, astfel: cifra unităților este pe poziția 0, cifra zecilor
+este pe poziția 1 ș.a.m.d.
+Subprogramul transformă numărul n, înlocuind cifra de pe poziția p cu cifra x, și furnizează numărul
+obținut tot prin parametrul n. Scrieţi definiţia completă a subprogramului.
+Exemplu: dacă n=12587, x=6 și p=3, după apel, n=16587. (10p.)
+2. Se consideră o vocală oarecare a alfabetului englez, notată cu v, și o consoană oarecare a alfabetului englez,
+notată cu c. Litera v se numeşte vocală prietenă a lui c dacă în şirul literelor alfabetului englez, ordonat
+lexicografic, v îl precede pe c, iar între v și c nu există nicio vocală. Se consideră vocale literele a, e, i, o, u.
+Exemplu: e este vocală prietenă pentru consoanele f, g și h, dar nu este vocală prietenă pentru
+consoanele d și j.
+Un elev vrea să transmită unui prieten o parolă, codificată. Parola este formată dintr-un singur cuvânt de
+cel mult 50 de caractere, litere mici ale alfabetului englez, cel puțin una fiind consoană. Codificarea se
+face prin înlocuirea fiecărei consoane cu vocala sa prietenă, ca în exemplu.
+Scrieţi un program C/C++ care citeşte de la tastatură un cuvânt, reprezentând o parolă de tipul precizat şi
+determină, în memorie, forma codificată a acesteia. Programul afişează pe ecran parola codificată obţinută.
+Exemplu: pentru parola rame se afişează oaie, iar pentru parola sport se afișează ooooo (10p.)
+3. Numim secvență paritară a unui șir de numere naturale un subșir al acestuia, format din termeni cu
+aceeași paritate, aflați pe poziții consecutive în șirul dat. Lungimea secvenței este egală cu numărul de
+termeni ai acesteia.
+Fișierul bac.txt conține un șir de cel puțin două și cel mult 106 numere naturale din intervalul [0, 109].
+Numerele sunt separate prin câte un spațiu, iar în șir există cel puțin doi termeni cu aceeași paritate pe
+poziții consecutive.
+Se cere să se afişeze pe ecran numărul secvențelor paritare de lungime maximă din șirul aflat în fișier,
+precum și această lungime maximă. Numerele afişate sunt separate printr-un spațiu. Proiectați un
+algoritm eficient din punctul de vedere al timpului de executare și al memoriei utilizate.
+Exemplu: dacă fişierul conţine numerele
+2 3 5 1 7 9 8 4 4 11 15 17 21 11 6 11 15 17 21 11 6 5 2 6 4 0 16
+atunci pe ecran se afișează valorile 4 5
+a. Descrieți în limbaj natural algoritmul proiectat, justificând eficiența acestuia. (2p.)
+b. Scrieți programul C/C++ corespunzător algoritmului proiectat. (8p.)

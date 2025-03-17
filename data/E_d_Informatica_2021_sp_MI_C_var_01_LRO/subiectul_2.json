@@ -1,0 +1,19 @@
+{
+    "subject_number": "II",
+    "total_points": "40",
+    "subject_title": "SUBIECTUL al II-lea",
+    "exercises": {
+        "1": {
+            "content": "Algoritmul alăturat este reprezentat în pseudocod.\nS-a notat cu ab operația de interschimbare a valorilor variabilelor\na și b.\ncitește x,y\n (numere naturale nenule)\n┌dacă x>y atunci xy\n└■\nnr1\n┌pentru iy,x,-1 execută\n│ scrie 1\n│┌dacă nr≥x atunci\n││ scrie 2\n│└■\n│ nrnr*3\n│ scrie 1\n└■\na. Scrieți ce se afișează în urma executării algoritmului dacă se citesc,\nîn această ordine, numerele 8 și 5. (6p.)\nb. Dacă pentru variabila x se citește valoarea 10, scrieți două numere\ncare pot fi citite pentru variabila y, astfel încât, în urma executării\nalgoritmului, pentru fiecare dintre acestea, cifra 2 să fie afișată doar\nde trei ori. (6p.)\nc. Scrieți programul C/C++ corespunzător algoritmului dat, fără a utiliza\neventuale subprograme predefinite pentru interschimbare. (10p.)\nd. Scrieți în pseudocod un algoritm echivalent cu cel dat, înlocuind structura pentru...execută cu o\nstructură repetitivă cu test inițial. (6p.)",
+            "exercise_number": "1"
+        },
+        "2": {
+            "content": "Utilizând metoda bactracking se generează toate grupurile de cel puțin două păsări cântătoare din\nmulțimea {cinteză, ciocârlie, mierlă, privighetoare, scatiu}, astfel încât mierla și\nprivighetoarea să nu fie în același grup. Două grupuri diferă prin cel puțin o pasăre. Primele patru soluții\ngenerate sunt, în această ordine: (cinteză, ciocârlie), (cinteză, ciocârlie, mierlă),\n(cinteză, ciocârlie, mierlă, scatiu), (cinteză, ciocârlie, privighetoare).\nScrieți următoarele două soluții generate imediat după (ciocârlie, privighetoare, scatiu). (6p.)",
+            "exercise_number": "2"
+        },
+        "3": {
+            "content": "În declararea alăturată, variabilele f și fs memorează în câmpurile a și b\nnumărătorul, respectiv numitorul câte unei fracții. Fără a utiliza alte variabile,\nscrieți o secvență de instrucțiuni care să memoreze în variabila fs fracția\nobținută prin scăderea din fracția 2020\n2021\na fracției memorate în variabila f. (6p.)\nstruct fractie\n { int a,b;\n } f,fs; \n SUBIECTUL al III-lea (30 de puncte)",
+            "exercise_number": "3"
+        }
+    }
+}

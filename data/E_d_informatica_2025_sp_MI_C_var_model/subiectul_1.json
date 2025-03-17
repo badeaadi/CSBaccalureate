@@ -1,0 +1,27 @@
+{
+    "subject_number": "I",
+    "total_points": "20",
+    "subject_title": "SUBIECTUL I",
+    "exercises": {
+        "1": {
+            "content": "Indicați intervalul căruia îi aparține valoarea variabilei reale x, dacă și numai dacă expresia C/C++ de mai\njos are valoarea 1.\n!(x<2004) && !(x<2005 || x>2024) && !(x>2025)\na. [2004,2005] b. [2004,2024] c. [2005,2024] d. [2005,2025]",
+            "exercise_number": "1"
+        },
+        "2": {
+            "content": "Subprogramul f este definit alăturat.\nIndicați valoarea f(2,5).\nint f(int n,int x)\n{ if(n>0)\n return f(f(n-2,x)-2,x-5);\n return x;\n}\na. 3 b. 0 c. -2 d. -5",
+            "exercise_number": "2"
+        },
+        "3": {
+            "content": "Variabila s poate accesa un șir de cel mult 20\nde caractere, variabila aux este de tip char, iar\ncelelalte variabile sunt de tip întreg.\nIndicați șirul accesat prin intermediul variabilei s\nîn urma executării secvenței alăturate. (6p.)\nstrcpy(s,\"ROMANIA\"); i=strlen(s)-1; j=3;\nwhile(j>=0)\n{ aux=s[i]; s[i]=s[i-j]; s[i-j]=aux;\n i=i-j; j=j-1;\n}\na. ARMONIA b. IAMARON c. MANIARO d. MARONIA",
+            "exercise_number": "3"
+        },
+        "4": {
+            "content": "Un graf orientat are 6 vârfuri, numerotate de la 1 la 6, și arcele (1,2), (1,6), (2,3), (3,1), (3,4),\n(4,5), (5,3), (5,6). Indicați un circuit elementar al acestui graf.\na. 1,2,3 b. 1,2,3,1 c. 1,2,3,4,5,3,1 d. 1,2,3,4,5,6,1",
+            "exercise_number": "4"
+        },
+        "5": {
+            "content": "Indicați numărul de noduri ale unui graf neorientat, complet, cu 300 de muchii.\na. 25 b. 30 c. 299 d. 301\nSUBIECTUL al II-lea (40 de puncte)",
+            "exercise_number": "5"
+        }
+    }
+}

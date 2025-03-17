@@ -1,0 +1,19 @@
+{
+    "subject_number": "II",
+    "total_points": "40",
+    "subject_title": "SUBIECTUL al II-lea",
+    "exercises": {
+        "1": {
+            "content": "Algoritmul alăturat este reprezentat în pseudocod.\nS-a notat cu a%b restul împărțirii numărului natural a la\nnumărul natural nenul b.\ncitește n,x,y\n (numere naturale nenule, x≤n, y≤n)\nnr0\n┌pentru in,1,-1 execută\n│┌dacă i%x=0 și i%y≠0 atunci\n││ nrnr+1\n││altfel\n││┌dacă i%x≠0 și i%y=0 atunci\n│││ nrnr+1\n││└■\n│└■\n└■\nscrie nr\na. Scrieți valoarea afișată în urma executării algoritmului, dacă se\ncitesc, în această ordine, numerele 15, 3, 4. (6p.)\nb. Scrieți două seturi distincte de date de intrare, astfel încât, în\nurma executării algoritmului, pentru fiecare dintre acestea să\nse afișeze valoarea 0. (6p.)\nc. Scrieți programul C/C++ corespunzător algoritmului dat. (10p.)\nd. Scrieți în pseudocod un algoritm echivalent cu cel dat,\nînlocuind adecvat structura pentru...execută cu o\nstructură repetitivă cu test inițial. (6p.)\nMinisterul Educației\nCentrul Național de Politici și Evaluare în Educație\nProbă scrisă la informatică Model\nLimbajul C/C++\nFilieră teoretică, profil real, specializare matematică-informatică / matematică-informatică intensiv informatică\nFilieră vocațională, profil militar, specializare matematică-informatică\nPagina 2 din 2",
+            "exercise_number": "1"
+        },
+        "2": {
+            "content": "Utilizând metoda backtracking, se generează toate numerele formate din cifre distincte, cifre a căror sumă\nsă fie 6. Primele patru soluții generate sunt, în această ordine: 1023, 1032, 105 și 1203. Scrieți cea de a\ncincea și cea de a șasea soluție generată. (6p.)",
+            "exercise_number": "2"
+        },
+        "3": {
+            "content": "Variabila m memorează date despre o mașină de epocă: anul fabricației și data (ziua și luna) ultimei\nprezentări în cadrul unei expoziții de profil care a avut loc în anul curent. Știind că expresiile C/C++ de mai\njos memorează anul fabricației mașinii (număr natural din intervalul [1880,1950]), ziua (număr natural\ndin intervalul [1,31]) și luna (șir de cel mult 15 caractere) din anul curent la care a fost prezentată\naceasta la o expoziție, scrieți definiția unei structuri, cu eticheta epoca, înregistrare care să permită\nmemorarea datelor unei mașini de epocă, și declarați variabila m, de acest tip.\nm.anFabricatie m.expo.zi m.expo.luna (6p.)\nSUBIECTUL al III-lea (30 de puncte)",
+            "exercise_number": "3"
+        }
+    }
+}

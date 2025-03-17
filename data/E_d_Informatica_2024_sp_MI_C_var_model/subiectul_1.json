@@ -1,0 +1,27 @@
+{
+    "subject_number": "I",
+    "total_points": "20",
+    "subject_title": "SUBIECTUL I",
+    "exercises": {
+        "1": {
+            "content": "Variabila x este de tip întreg și poate memora un număr natural din intervalul\n[0,109). Indicați valoarea maximă pe care o poate avea expresia C/C++ alăturată.\nx%2024\na. 20.24 b. 295 c. 2023 d. 494071",
+            "exercise_number": "1"
+        },
+        "2": {
+            "content": "Subprogramele f1, f2 și f3 sunt definite mai jos.\nint f1(int n)\n{ return n*(n+1)/2; }\nint f3(int n)\n{ if(n==0) return 0;\n if(n%2==1) return n+f3(n-1);\n return n*n/4+2*f3(n/2);\n}\nint f2(int n)\n{ if(n!=0) return n+f2(n-1);\n return 0;\n}\nPentru n=24, se obține aceeași valoare la apelul subprogramelor:\na. f1 și f2 b. f1 și f3 c. f2 și f3 d. f1, f2 și f3",
+            "exercise_number": "2"
+        },
+        "3": {
+            "content": "Utilizând metoda backtracking, se generează toate modalitățile de a realiza preparate la cuptor,\nfolosind într-o tavă patru ingrediente distincte din mulțimea {broccoli, cașcaval, conopidă, ou,\npătrunjel, smântână}. Fiecare preparat respectă următoarele condiții:\n• NU sunt folosite conopidă și broccoli în același preparat, iar dacă în acesta există una dintre cele\ndouă legume, ea este plasată prima în tavă;\n• dacă se folosește pătrunjel într-un preparat, el este plasat ultimul în tavă;\n• dacă se folosește smântână și cașcaval în același preparat, smântâna este plasată în tavă înainte\nde cașcaval.\nDouă preparate sunt distincte dacă diferă prin cel puțin un ingredient sau prin ordinea plasării acestora\nîn tavă. Primele cinci preparate generate sunt, în această ordine: (broccoli, cașcaval, ou,\npătrunjel), (broccoli, ou, cașcaval, pătrunjel), (broccoli, ou, smântână, cașcaval),\n(broccoli, ou, smântână, pătrunjel), (broccoli, smântână, cașcaval, ou). Indicați al\nșaptelea preparat generat.\na. (broccoli, smântână, ou, cașcaval) b. (conopidă, cașcaval, ou, pătrunjel)\nc. (ou, smântână, cașcaval, pătrunjel) d. (smântână, cașcaval, ou, pătrunjel)",
+            "exercise_number": "3"
+        },
+        "4": {
+            "content": "Un arbore cu 10 noduri, numerotate de la 1 la 10, este reprezentat prin vectorul de „tați”\n(7,4,6,7,4,7,0,9,6,5). Indicați numărul de noduri „frunză” ale acestui arbore.\na. 6 b. 5 c. 4 d. 2",
+            "exercise_number": "4"
+        },
+        "5": {
+            "content": "Într-un oraș sunt 5 piețe, iar una dintre acestea este conectată direct cu fiecare dintre celelalte patru\nprin câte o bandă de transport bidirecțională. Indicați numărul minim de benzi de transport\nbidirecționale care trebuie adăugate, astfel încât graful neorientat obținut, în care nodurile reprezintă\npiețele, iar muchiile reprezintă benzile de transport, să fie eulerian.\na. 0 b. 2 c. 4 d. 6\nSUBIECTUL al II-lea (40 de puncte)",
+            "exercise_number": "5"
+        }
+    }
+}

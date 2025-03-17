@@ -1,0 +1,19 @@
+{
+    "subject_number": "III",
+    "total_points": "30",
+    "subject_title": "SUBIECTUL al III-lea",
+    "exercises": {
+        "1": {
+            "content": "Două numere se numesc oglindite dacă fiecare se obține din celălalt, prin parcurgerea cifrelor acestuia\nde la dreapta la stânga. Două numere se numesc par-oglindite dacă numerele obținute din acestea, prin\nîndepărtarea tuturor cifrelor lor impare sau nule, sunt oglindite.\nSubprogramul pao are trei parametri:\n• x și y, prin care primește câte un număr natural din intervalul [0,109];\n• rez, prin care furnizează valoarea 1, dacă x și y sunt par-oglindite, sau valoarea 0, în caz contrar.\nScrieți definiția completă a subprogramului.\nExemplu: dacă x=814 și y=7003485, sau x=14 și y=700345, după apel rez=1,\niar dacă x=814 și y=7003465, sau x=814 și y=7003845, sau x=15 și y=510, după apel rez=0. (10p.)",
+            "exercise_number": "1"
+        },
+        "2": {
+            "content": "Scrieți un program C/C++ care citește de la tastatură două numere naturale din intervalul [2,102], k și n\n(k≥n), și construiește în memorie un tablou bidimensional cu n linii și n coloane, astfel încât parcurgând\ndiagonala principală, de sus în jos, să se obțină un șir strict crescător format din primii n multipli naturali\nnenuli ai lui k, și parcurgând fiecare linie a sa, de la stânga la dreapta, să se obțină câte un șir strict\ndescrescător de numere naturale consecutive.\nProgramul afișează pe ecran tabloul obținut, fiecare linie a tabloului pe câte o linie\na ecranului, elementele de pe aceeași linie fiind separate prin câte un spațiu.\nExemplu: pentru k=5 și n=4 se obține tabloul alăturat. (10p.)\n5 4 3 2\n11 10 9 8\n17 16 15 14\n23 22 21 20",
+            "exercise_number": "2"
+        },
+        "3": {
+            "content": "La o expoziție auto se află, în șir, mașini de epocă, fiecare având câte un cod, format prin alipirea, în\naceastă ordine, a două numere naturale nenule: identificatorul colecționarului care deține mașina,\nrespectiv anul fabricației acesteia.\nFişierul bac.txt conţine numere naturale: pe prima linie un număr x (x[1880,1950]), reprezentând\nun an calendaristic, iar pe a doua linie cel mult 105 numere din intervalul [104,109], reprezentând\ncodurile mașinilor, în ordinea din șirul în care sunt expuse. Numerele aflate pe aceeași linie în fișier sunt\nseparate prin câte un spaţiu.\nSe cere să se afișeze pe ecran identificatorii colecționarilor care dețin ultimele două mașini, din șirul celor\nexpuse, ambele fiind fabricate în anul x și aflate în șir pe poziții consecutive, ca în exemplu. Numerele, nu\nneapărat distincte, sunt afișate în ordinea în care mașinile corespunzătoare apar în șir, separate printr-un\nspațiu, iar dacă nu există două astfel de mașini, se afișează pe ecran mesajul nu exista. Proiectați un\nalgoritm eficient din punctul de vedere al memoriei utilizate și al timpului de executare.\nExemplu: dacă fișierul conține numerele\n1925\n31885 21925 8931925 31925 121900 11925 31925 151925 61950 201925 121880\natunci pe ecran se afișează 3 15\na. Descrieți în limbaj natural algoritmul proiectat, justificând eficiența acestuia. (2p.)\nb. Scrieți programul C/C++ corespunzător algoritmului proiectat. (8p.)",
+            "exercise_number": "3"
+        }
+    }
+}

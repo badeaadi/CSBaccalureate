@@ -1,0 +1,19 @@
+{
+    "subject_number": "III",
+    "total_points": "30",
+    "subject_title": "SUBIECTUL al III-lea",
+    "exercises": {
+        "1": {
+            "content": "Un număr natural nenul, n, se numește număr abundent dacă S(n)/n>S(k)/k, pentru orice număr\nnatural nenul k (k≤n-1), unde s-a notat cu S(i) suma divizorilor pozitivi ai numărului natural nenul i.\nSubprogramul abundent are un singur parametru, n, prin care primește un număr natural (n∈[2,106]).\nSubprogramul returnează valoarea 1, dacă n este un număr abundent, sau valoarea 0, în caz contrar.\nScrieți definiția completă a subprogramului.\nExemplu: pentru n=6, subprogramul returnează valoarea 1 (S(6)/6=2, iar cel mai mare raport obținut\npentru valori strict mai mici decât 6 este S(4)/4=1.75), iar pentru n=7 sau n=8, subprogramul\nreturnează valoarea 0 (S(7)/7=1.14, S(8)/8=1.87). (10p.)",
+            "exercise_number": "1"
+        },
+        "2": {
+            "content": "Pentru a identifica punctele în care se concentrează apa în albia unui râu în cazul secetei, se determină\ntalvegul acesteia – linia care unește punctele cele mai adânci ale albiei. În acest scop s-au stabilit ns\nsecțiuni transversale pe cursul apei, numerotate începând de la 1, și în cadrul fiecărei secțiuni s-a măsurat\nadâncimea apei în np puncte, numerotate începând de la 1. Din fiecare secțiune, în ordine, se include în\ntalveg cel mai adânc punct al acesteia, iar dacă în secțiune sunt mai multe puncte aflate la aceeași\nadâncime, maximă, se va lua în considerare doar primul dintre ele, ca în exemplu.\nScrieți un program C/C++ care citește de la tastatură două numere naturale, ns și np (ns∈[1,103],\nnp∈[1,50]), și cele ns∙np elemente ale unui tablou bidimensional, valori naturale din intervalul [0,102].\nFiecare linie a tabloului corespunde câte unei secțiuni, în ordinea numerotării acestora, iar\nvalorile memorate pe linie reprezintă adâncimile celor np puncte stabilite pentru acea\nsecțiune, în ordinea numerotării lor. Programul afișează pe ecran, pentru fiecare secțiune, o\npereche formată din numărul de ordine al secțiunii și numărul de ordine al punctului său care\ns-a inclus în talveg. Numerele din fiecare pereche sunt afișate separate prin câte un\ncaracter : (două puncte), iar fiecare pereche este urmată de un spațiu.\nExemplu: pentru ns=6, np=4 și tabloul alăturat, se afișează pe ecran valorile:\n1:3 2:2 3:2 4:2 5:4 6:3 (10p.)\n2 4 5 3\n2 6 6 3\n1 5 2 5\n1 3 3 3\n3 4 3 5\n0 1 2 1",
+            "exercise_number": "2"
+        },
+        "3": {
+            "content": "Un număr natural x este numit prefix al unui număr natural y dacă se obține din acesta prin eliminarea a\ncel puțin unei cifre de la dreapta sa, și este numit sufix al lui y dacă se obține din acesta prin eliminarea\na cel puțin unei cifre de la stânga sa.\nExemplu: 15 este prefix pentru 154 sau 1521, este sufix pentru 3415 sau 5115, dar nu este nici prefix,\nnici sufix pentru 15.\nFișierul bac.txt conține maximum 106 numere naturale din intervalul [10,104), separate prin câte un\nspațiu. Se cere să se afișeze pe ecran numărul valorilor de două cifre care apar de același număr de ori\nca sufix, respectiv ca prefix al numerelor din șirul aflat în fișier. Proiectați un algoritm eficient din punctul\nde vedere al timpului de executare.\nExemplu: dacă fișierul are conținutul\n342 1684 2134 5434 111 98 98 3405 3412 7016 8634 1010 102 310\nse afișează pe ecran: 4 (pentru valorile 10, 11, 16, 34).\na. Descrieți în limbaj natural algoritmul proiectat, justificând eficiența acestuia. (2p.)\nb. Scrieți programul C/C++ corespunzător algoritmului proiectat.",
+            "exercise_number": "3"
+        }
+    }
+}
