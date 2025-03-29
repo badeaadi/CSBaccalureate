@@ -1,0 +1,67 @@
+{
+    "subiectul_1": {
+        "subject_number": "I",
+        "total_points": "20",
+        "subject_title": "SUBIECTUL I",
+        "exercises": {
+            "1": {
+                "content": "Indicați intervalul căruia îi aparține valoarea variabilei reale x, dacă și numai dacă expresia C/C++ de mai\njos are valoarea 1.\n!(x<2004) && !(x<2005 || x>2024) && !(x>2025)\na. [2004,2005] b. [2004,2024] c. [2005,2024] d. [2005,2025]",
+                "exercise_number": "1"
+            },
+            "2": {
+                "content": "Subprogramul f este definit alăturat.\nIndicați valoarea f(2,5).\nint f(int n,int x)\n{ if(n>0)\n return f(f(n-2,x)-2,x-5);\n return x;\n}\na. 3 b. 0 c. -2 d. -5",
+                "exercise_number": "2"
+            },
+            "3": {
+                "content": "Variabila s poate accesa un șir de cel mult 20\nde caractere, variabila aux este de tip char, iar\ncelelalte variabile sunt de tip întreg.\nIndicați șirul accesat prin intermediul variabilei s\nîn urma executării secvenței alăturate. (6p.)\nstrcpy(s,\"ROMANIA\"); i=strlen(s)-1; j=3;\nwhile(j>=0)\n{ aux=s[i]; s[i]=s[i-j]; s[i-j]=aux;\n i=i-j; j=j-1;\n}\na. ARMONIA b. IAMARON c. MANIARO d. MARONIA",
+                "exercise_number": "3"
+            },
+            "4": {
+                "content": "Un graf orientat are 6 vârfuri, numerotate de la 1 la 6, și arcele (1,2), (1,6), (2,3), (3,1), (3,4),\n(4,5), (5,3), (5,6). Indicați un circuit elementar al acestui graf.\na. 1,2,3 b. 1,2,3,1 c. 1,2,3,4,5,3,1 d. 1,2,3,4,5,6,1",
+                "exercise_number": "4"
+            },
+            "5": {
+                "content": "Indicați numărul de noduri ale unui graf neorientat, complet, cu 300 de muchii.\na. 25 b. 30 c. 299 d. 301\nSUBIECTUL al II-lea (40 de puncte)",
+                "exercise_number": "5"
+            }
+        }
+    },
+    "subiectul_2": {
+        "subject_number": "II",
+        "total_points": "40",
+        "subject_title": "SUBIECTUL al II-lea",
+        "exercises": {
+            "1": {
+                "content": "Algoritmul alăturat este reprezentat în pseudocod.\nS-a notat cu a%b restul împărțirii numărului natural a la\nnumărul natural nenul b.\ncitește n,x,y\n (numere naturale nenule, x≤n, y≤n)\nnr0\n┌pentru in,1,-1 execută\n│┌dacă i%x=0 și i%y≠0 atunci\n││ nrnr+1\n││altfel\n││┌dacă i%x≠0 și i%y=0 atunci\n│││ nrnr+1\n││└■\n│└■\n└■\nscrie nr\na. Scrieți valoarea afișată în urma executării algoritmului, dacă se\ncitesc, în această ordine, numerele 15, 3, 4. (6p.)\nb. Scrieți două seturi distincte de date de intrare, astfel încât, în\nurma executării algoritmului, pentru fiecare dintre acestea să\nse afișeze valoarea 0. (6p.)\nc. Scrieți programul C/C++ corespunzător algoritmului dat. (10p.)\nd. Scrieți în pseudocod un algoritm echivalent cu cel dat,\nînlocuind adecvat structura pentru...execută cu o\nstructură repetitivă cu test inițial. (6p.)\nMinisterul Educației\nCentrul Național de Politici și Evaluare în Educație\nProbă scrisă la informatică Model\nLimbajul C/C++\nFilieră teoretică, profil real, specializare matematică-informatică / matematică-informatică intensiv informatică\nFilieră vocațională, profil militar, specializare matematică-informatică\nPagina 2 din 2",
+                "exercise_number": "1"
+            },
+            "2": {
+                "content": "Utilizând metoda backtracking, se generează toate numerele formate din cifre distincte, cifre a căror sumă\nsă fie 6. Primele patru soluții generate sunt, în această ordine: 1023, 1032, 105 și 1203. Scrieți cea de a\ncincea și cea de a șasea soluție generată. (6p.)",
+                "exercise_number": "2"
+            },
+            "3": {
+                "content": "Variabila m memorează date despre o mașină de epocă: anul fabricației și data (ziua și luna) ultimei\nprezentări în cadrul unei expoziții de profil care a avut loc în anul curent. Știind că expresiile C/C++ de mai\njos memorează anul fabricației mașinii (număr natural din intervalul [1880,1950]), ziua (număr natural\ndin intervalul [1,31]) și luna (șir de cel mult 15 caractere) din anul curent la care a fost prezentată\naceasta la o expoziție, scrieți definiția unei structuri, cu eticheta epoca, înregistrare care să permită\nmemorarea datelor unei mașini de epocă, și declarați variabila m, de acest tip.\nm.anFabricatie m.expo.zi m.expo.luna (6p.)\nSUBIECTUL al III-lea (30 de puncte)",
+                "exercise_number": "3"
+            }
+        }
+    },
+    "subiectul_3": {
+        "subject_number": "III",
+        "total_points": "30",
+        "subject_title": "SUBIECTUL al III-lea",
+        "exercises": {
+            "1": {
+                "content": "Două numere se numesc oglindite dacă fiecare se obține din celălalt, prin parcurgerea cifrelor acestuia\nde la dreapta la stânga. Două numere se numesc par-oglindite dacă numerele obținute din acestea, prin\nîndepărtarea tuturor cifrelor lor impare sau nule, sunt oglindite.\nSubprogramul pao are trei parametri:\n• x și y, prin care primește câte un număr natural din intervalul [0,109];\n• rez, prin care furnizează valoarea 1, dacă x și y sunt par-oglindite, sau valoarea 0, în caz contrar.\nScrieți definiția completă a subprogramului.\nExemplu: dacă x=814 și y=7003485, sau x=14 și y=700345, după apel rez=1,\niar dacă x=814 și y=7003465, sau x=814 și y=7003845, sau x=15 și y=510, după apel rez=0. (10p.)",
+                "exercise_number": "1"
+            },
+            "2": {
+                "content": "Scrieți un program C/C++ care citește de la tastatură două numere naturale din intervalul [2,102], k și n\n(k≥n), și construiește în memorie un tablou bidimensional cu n linii și n coloane, astfel încât parcurgând\ndiagonala principală, de sus în jos, să se obțină un șir strict crescător format din primii n multipli naturali\nnenuli ai lui k, și parcurgând fiecare linie a sa, de la stânga la dreapta, să se obțină câte un șir strict\ndescrescător de numere naturale consecutive.\nProgramul afișează pe ecran tabloul obținut, fiecare linie a tabloului pe câte o linie\na ecranului, elementele de pe aceeași linie fiind separate prin câte un spațiu.\nExemplu: pentru k=5 și n=4 se obține tabloul alăturat. (10p.)\n5 4 3 2\n11 10 9 8\n17 16 15 14\n23 22 21 20",
+                "exercise_number": "2"
+            },
+            "3": {
+                "content": "La o expoziție auto se află, în șir, mașini de epocă, fiecare având câte un cod, format prin alipirea, în\naceastă ordine, a două numere naturale nenule: identificatorul colecționarului care deține mașina,\nrespectiv anul fabricației acesteia.\nFişierul bac.txt conţine numere naturale: pe prima linie un număr x (x[1880,1950]), reprezentând\nun an calendaristic, iar pe a doua linie cel mult 105 numere din intervalul [104,109], reprezentând\ncodurile mașinilor, în ordinea din șirul în care sunt expuse. Numerele aflate pe aceeași linie în fișier sunt\nseparate prin câte un spaţiu.\nSe cere să se afișeze pe ecran identificatorii colecționarilor care dețin ultimele două mașini, din șirul celor\nexpuse, ambele fiind fabricate în anul x și aflate în șir pe poziții consecutive, ca în exemplu. Numerele, nu\nneapărat distincte, sunt afișate în ordinea în care mașinile corespunzătoare apar în șir, separate printr-un\nspațiu, iar dacă nu există două astfel de mașini, se afișează pe ecran mesajul nu exista. Proiectați un\nalgoritm eficient din punctul de vedere al memoriei utilizate și al timpului de executare.\nExemplu: dacă fișierul conține numerele\n1925\n31885 21925 8931925 31925 121900 11925 31925 151925 61950 201925 121880\natunci pe ecran se afișează 3 15\na. Descrieți în limbaj natural algoritmul proiectat, justificând eficiența acestuia. (2p.)\nb. Scrieți programul C/C++ corespunzător algoritmului proiectat. (8p.)",
+                "exercise_number": "3"
+            }
+        }
+    }
+}

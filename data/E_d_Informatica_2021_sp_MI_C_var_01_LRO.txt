@@ -1,0 +1,118 @@
+SUBIECTUL I (20 de puncte)
+Pentru fiecare dintre itemii de la 1 la 5, scrieți pe foaia de examen litera corespunzătoare răspunsului
+corect. Fiecare răspuns corect se notează cu 4 puncte.
+1. Indicați o expresie C/C++ care are valoarea 1 dacă și numai dacă valorile variabilelor întregi x și y
+sunt numere pare.
+a. x%2==0 && (y+1)%2!=0 b. (x-y)/2==0
+c. (x+y)%2==0 && (x-y)%2==0 d. x%2==y%2
+2. Subprogramul f este definit alăturat. Indicați
+valorile pe care le pot avea parametrii n și c, astfel
+încât, în urma apelului, f(n,c) să aibă valoarea
+2021.
+int f(int n,int c)
+{ if(n==0) return 0;
+ else
+ if(n%10==c) return f(n/10,c);
+ else return n%10+10*f(n/10,c);
+}
+a. n=2021 și c=0 b. n=200211 și c=2
+c. n=312032 și c=3 d. n=720721 și c=7
+3. Variabila m memorează elementele unui tablou bidimensional cu 100 de linii și 100 de coloane,
+numerotate de la 0 la 99. Indicați expresia C/C++ prin care poate fi accesat un element aflat pe
+diagonala secundară a tabloului.
+a. m[42/42] b. m[42|42] c. m[42]:[57] d. m[42][57]
+4. Un graf neorientat are 6 noduri, numerotate de la 1 la 6, și muchiile [1,2], [1,3], [2,3], [3,4],
+[3,5], [4,5], [5,6]. Indicați un ciclu elementar al acestui graf.
+a. 1,2,3 b. 1,2,3,1 c. 1,2,3,4,5,3,1 d. 1,2,3,4,5,6,1
+5. Într-un arbore cu rădăcină un nod se află pe nivelul x dacă lanțul elementar care are o extremitate în
+nodul respectiv și cealaltă extremitate în rădăcina arborelui are lungimea x. Pe nivelul 0 se află un
+singur nod (rădăcina).
+Într-un arbore cu rădăcină toate nodurile de pe același nivel au un număr egal de „fii” și nu există două
+niveluri diferite cu același număr de noduri. Indicați numărul minim de noduri de pe nivelul 3.
+a. 12 b. 9 c. 8 d. 5
+Ministerul Educației
+Centrul Național de Politici și Evaluare în Educație
+Probă scrisă la INFORMATICĂ Varianta 1
+Limbajul C/C++
+Filieră teoretică, profil real, specializare matematică-informatică / matematică-informatică intensiv informatică
+Filieră vocațională, profil militar, specializare matematică-informatică
+Pagina 2 din 2
+SUBIECTUL al II-lea (40 de puncte)
+1. Algoritmul alăturat este reprezentat în pseudocod.
+S-a notat cu ab operația de interschimbare a valorilor variabilelor
+a și b.
+citește x,y
+ (numere naturale nenule)
+┌dacă x>y atunci xy
+└■
+nr1
+┌pentru iy,x,-1 execută
+│ scrie 1
+│┌dacă nr≥x atunci
+││ scrie 2
+│└■
+│ nrnr*3
+│ scrie 1
+└■
+a. Scrieți ce se afișează în urma executării algoritmului dacă se citesc,
+în această ordine, numerele 8 și 5. (6p.)
+b. Dacă pentru variabila x se citește valoarea 10, scrieți două numere
+care pot fi citite pentru variabila y, astfel încât, în urma executării
+algoritmului, pentru fiecare dintre acestea, cifra 2 să fie afișată doar
+de trei ori. (6p.)
+c. Scrieți programul C/C++ corespunzător algoritmului dat, fără a utiliza
+eventuale subprograme predefinite pentru interschimbare. (10p.)
+d. Scrieți în pseudocod un algoritm echivalent cu cel dat, înlocuind structura pentru...execută cu o
+structură repetitivă cu test inițial. (6p.)
+2. Utilizând metoda bactracking se generează toate grupurile de cel puțin două păsări cântătoare din
+mulțimea {cinteză, ciocârlie, mierlă, privighetoare, scatiu}, astfel încât mierla și
+privighetoarea să nu fie în același grup. Două grupuri diferă prin cel puțin o pasăre. Primele patru soluții
+generate sunt, în această ordine: (cinteză, ciocârlie), (cinteză, ciocârlie, mierlă),
+(cinteză, ciocârlie, mierlă, scatiu), (cinteză, ciocârlie, privighetoare).
+Scrieți următoarele două soluții generate imediat după (ciocârlie, privighetoare, scatiu). (6p.)
+3. În declararea alăturată, variabilele f și fs memorează în câmpurile a și b
+numărătorul, respectiv numitorul câte unei fracții. Fără a utiliza alte variabile,
+scrieți o secvență de instrucțiuni care să memoreze în variabila fs fracția
+obținută prin scăderea din fracția 2020
+2021
+a fracției memorate în variabila f. (6p.)
+struct fractie
+ { int a,b;
+ } f,fs; 
+ SUBIECTUL al III-lea (30 de puncte)
+1. Subprogramul divPrim are doi parametri:
+• n, prin care primește un număr natural (n[2,109]);
+• s, prin care furnizează suma divizorilor primi ai lui n care apar la o putere impară în
+descompunerea în factori primi a acestuia.
+Scrieți definiția completă a subprogramului.
+Exemple: pentru n=360, după apel s=7 (360=23∙32∙51, deci s=2+5), iar pentru n=16, după apel s=0.(10p.)
+2. Scrieți un program C/C++ care citește de la tastatură două numere naturale n și k, apoi n cuvinte,
+separate prin Enter. Fiecare cuvânt este format din cel mult 10 caractere, numai litere mici ale
+alfabetului englez, iar numerele citite sunt din intervalul [1,20].
+Programul afișează pe ecran, pe linii separate, primele k cuvinte dintre cele citite pentru
+care ultima literă este o vocală, sau doar mesajul nu exista dacă nu există k astfel de
+cuvinte. Se consideră vocale literele a, e, i, o, u.
+Exemplu: dacă se citesc datele alăturate, se afișează pe ecran:
+norii
+pluteau (10p.)
+5 2
+norii
+cumulus
+pluteau
+pe
+cer
+3. Numărul natural a se numește sufix al numărului natural b dacă a este egal cu b sau dacă b se poate
+obține din a prin alipirea la stânga a unor noi cifre.
+Fişierul bac.txt conţine pe prima linie un număr natural x (x[100,999]), iar pe a doua linie un şir de
+cel mult 105 numere naturale din intervalul [0,109]. Numerele din şir sunt separate prin câte un spaţiu.
+Se cere să se afișeze pe ecran ultimii doi termeni ai șirului, aflați pe poziții consecutive în acesta, care
+îl au drept sufix pe numărul x. Numerele sunt afișate în ordinea în care apar în șir, separate printr-un
+spațiu, iar dacă nu există doi astfel de termeni, se afișează pe ecran mesajul nu exista. Proiectați un
+algoritm eficient din punctul de vedere al memoriei utilizate și al timpului de executare.
+Exemplu: dacă fișierul conține
+numerele alăturate, atunci pe
+ecran se afișează 3210 15210
+210
+3445 210 893210 1245 1210 3210 15210 67120 20210 12
+a. Descrieți în limbaj natural algoritmul proiectat, justificând eficiența acestuia. (2p.)
+b. Scrieți programul C/C++ corespunzător algoritmului proiectat. (8p.)

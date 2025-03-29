@@ -1,0 +1,67 @@
+{
+    "subiectul_1": {
+        "subject_number": "I",
+        "total_points": "20",
+        "subject_title": "SUBIECTUL I",
+        "exercises": {
+            "1": {
+                "content": "Variabila x este de tip întreg. Indicați o expresie care are valoarea 1 dacă și\nnumai dacă expresia C/C++ alăturată are valoarea 1.\nx>=3 && x<10\na. !(x<3 && x>=10) b. !(x<3 || x>=10)\nc. x<3 && !(x>=10) d. !(x<3) || x>=10",
+                "exercise_number": "1"
+            },
+            "2": {
+                "content": "Subprogramul f este definit incomplet, alăturat. Indicați\no expresie cu care pot fi înlocuite punctele de suspensie\npentru ca f(n,3) să aibă valoarea 1 pentru orice număr\nprim n (n∈[2,104]) și valoarea 0 în caz contrar.\nint f(int x, int y)\n{ if(x!=2 && x%2==0) return 0;\n if(y*y>x) return 1;\n if(x%y==0) return 0;\n return f(x,.........);\n}\na. y+2 b. y-2 c. y*2 d. y/2",
+                "exercise_number": "2"
+            },
+            "3": {
+                "content": "Utilizând metoda backtracking, se generează toate posibilitățile de a forma platouri de câte trei fructe\ndistincte din mulţimea {măr, gutuie, prună, caisă, piersică}, astfel încât pe același platou nu se\naflă o gutuie și o piersică simultan. Două platouri sunt distincte dacă ele conțin cel puțin un fruct diferit.\nPrimele patru soluţii generate sunt, în această ordine, (măr, gutuie, prună), (măr, gutuie, caisă),\n(măr, prună, caisă), (măr, prună, piersică).\nIndicați soluţia generată imediat după (gutuie, prună, caisă).\na. (caisă, piersică, măr) b. (gutuie, prună, piersică)\nc. (mar, caisă, piersică) d. (prună, caisă, piersică)",
+                "exercise_number": "3"
+            },
+            "4": {
+                "content": "Variabila j este de tip întreg, iar variabila A memorează un tablou bidimensional cu 100 de linii și 100\nde coloane, numerotate de la 0 la 99. Indicați valoarea variabilei j, dacă elementul A[20][j] se află\npe diagonala secundară a tabloului.\na. 20 b. 49 c. 79 d. 80",
+                "exercise_number": "4"
+            },
+            "5": {
+                "content": "Un graf neorientat are 7 noduri, numerotate de la 1 la 7, și 8 muchii, dintre care șase sunt: [1,2],\n[2,4], [2,7], [3,4], [4,5], [4,6]. Știind că unul dintre lanțurile elementare care au lungimea\nmaximă este 1, 2, 7, 5, 4, 6, indicați care ar putea fi celelalte două muchii ale grafului.\na. [1,4] și [4,7] b. [1,4] și [5,7] c. [2,5] și [4,7] d. [3,6] și [5,7]\n \nMinisterul Educației\nCentrul Național de Politici și Evaluare în Educație\nProbă scrisă la informatică Varianta 5\nLimbajul C/C++\nFilieră teoretică, profil real, specializare matematică-informatică / matematică-informatică intensiv informatică\nFilieră vocațională, profil militar, specializare matematică-informatică\nPagina 2 din 2\nSUBIECTUL al II-lea (40 de puncte)",
+                "exercise_number": "5"
+            }
+        }
+    },
+    "subiectul_2": {
+        "subject_number": "II",
+        "total_points": "40",
+        "subject_title": "SUBIECTUL al II-lea",
+        "exercises": {
+            "1": {
+                "content": "Algoritmul alăturat este reprezentat în pseudocod. citeşte m,n\n (numere naturale nenule, m<n)\n x1\n┌cât timp x=1 execută\n│ xm; yn; nn-1\n│┌cât timp x≠y execută\n││┌dacă x>y atunci xx-y\n│││altfel yy-x\n││└■\n│└■\n└■\nscrie n+1\na. Scrieţi ce se afișează în urma executării algoritmului dacă se citesc,\nîn această ordine, valorile 21 și 47. (6p.)\nb. Dacă pentru variabila m se citeşte numărul 5, scrieţi două valori care pot\nfi citite pentru variabila n astfel încât, în urma executării algoritmului,\npentru fiecare dintre acestea, valoarea afişată să fie 10. (6p.)\nc. Scrieţi programul C/C++ corespunzător algoritmului dat. (10p.)\nd. Scrieţi în pseudocod un algoritm echivalent cu cel dat, înlocuind\nadecvat prima structură cât timp...execută cu o structură\nrepetitivă cu test final. (6p.)",
+                "exercise_number": "1"
+            },
+            "2": {
+                "content": "Un arbore cu 9 noduri, numerotate de la 1 la 9, are muchiile [1,8], [2,3], [2,5], [2,7], [4,5],\n[5,6], [5,8], [8,9]. Scrieți două noduri care pot fi alese drept rădăcină, astfel încât nodul 5 să aibă\ndoi “frați”. (6p.)",
+                "exercise_number": "2"
+            },
+            "3": {
+                "content": "Variabila x, declarată alăturat, memorează simultan un an\ncalendaristic și temperatura medie a aerului, măsurată în grade\nCelsius, înregistrată în București în anul respectiv.\nstruct meteo\n{ int an, temperatura;\n}x;\nScrieţi o secvență de instrucțiuni în urma executării căreia să se afișeze pe ecran mesajul CALDUROS\ndacă temperatura menționată a fost strict mai mare decât 11oC, mesajul RACOROS dacă temperatura\nmenționată a fost strict mai mică decât 10oC, sau mesajul NORMAL în orice alt caz. (6p.)\nSUBIECTUL al III-lea (30 de puncte)",
+                "exercise_number": "3"
+            }
+        }
+    },
+    "subiectul_3": {
+        "subject_number": "III",
+        "total_points": "30",
+        "subject_title": "SUBIECTUL al III-lea",
+        "exercises": {
+            "1": {
+                "content": "Subprogramul schimb are trei parametri:\n• n şi x, prin care primeşte câte un număr natural (n∈[0,108], x∈[1,9]);\n• p, prin care primește un număr natural reprezentând poziția unei cifre a numărului n (0≤p). Pozițiile\ncifrelor sunt numerotate de la dreapta la stânga, astfel: cifra unităților este pe poziția 0, cifra zecilor\neste pe poziția 1 ș.a.m.d.\nSubprogramul transformă numărul n, înlocuind cifra de pe poziția p cu cifra x, și furnizează numărul\nobținut tot prin parametrul n. Scrieţi definiţia completă a subprogramului.\nExemplu: dacă n=12587, x=6 și p=3, după apel, n=16587. (10p.)",
+                "exercise_number": "1"
+            },
+            "2": {
+                "content": "Se consideră o vocală oarecare a alfabetului englez, notată cu v, și o consoană oarecare a alfabetului englez,\nnotată cu c. Litera v se numeşte vocală prietenă a lui c dacă în şirul literelor alfabetului englez, ordonat\nlexicografic, v îl precede pe c, iar între v și c nu există nicio vocală. Se consideră vocale literele a, e, i, o, u.\nExemplu: e este vocală prietenă pentru consoanele f, g și h, dar nu este vocală prietenă pentru\nconsoanele d și j.\nUn elev vrea să transmită unui prieten o parolă, codificată. Parola este formată dintr-un singur cuvânt de\ncel mult 50 de caractere, litere mici ale alfabetului englez, cel puțin una fiind consoană. Codificarea se\nface prin înlocuirea fiecărei consoane cu vocala sa prietenă, ca în exemplu.\nScrieţi un program C/C++ care citeşte de la tastatură un cuvânt, reprezentând o parolă de tipul precizat şi\ndetermină, în memorie, forma codificată a acesteia. Programul afişează pe ecran parola codificată obţinută.\nExemplu: pentru parola rame se afişează oaie, iar pentru parola sport se afișează ooooo (10p.)",
+                "exercise_number": "2"
+            },
+            "3": {
+                "content": "Numim secvență paritară a unui șir de numere naturale un subșir al acestuia, format din termeni cu\naceeași paritate, aflați pe poziții consecutive în șirul dat. Lungimea secvenței este egală cu numărul de\ntermeni ai acesteia.\nFișierul bac.txt conține un șir de cel puțin două și cel mult 106 numere naturale din intervalul [0, 109].\nNumerele sunt separate prin câte un spațiu, iar în șir există cel puțin doi termeni cu aceeași paritate pe\npoziții consecutive.\nSe cere să se afişeze pe ecran numărul secvențelor paritare de lungime maximă din șirul aflat în fișier,\nprecum și această lungime maximă. Numerele afişate sunt separate printr-un spațiu. Proiectați un\nalgoritm eficient din punctul de vedere al timpului de executare și al memoriei utilizate.\nExemplu: dacă fişierul conţine numerele\n2 3 5 1 7 9 8 4 4 11 15 17 21 11 6 11 15 17 21 11 6 5 2 6 4 0 16\natunci pe ecran se afișează valorile 4 5\na. Descrieți în limbaj natural algoritmul proiectat, justificând eficiența acestuia. (2p.)\nb. Scrieți programul C/C++ corespunzător algoritmului proiectat. (8p.)",
+                "exercise_number": "3"
+            }
+        }
+    }
+}
