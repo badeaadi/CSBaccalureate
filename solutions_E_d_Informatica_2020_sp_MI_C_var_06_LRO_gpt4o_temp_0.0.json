@@ -1,0 +1,43 @@
+{
+    "gpt_model": "E_d_Informatica_2020_sp_MI_C_var_06_LRO",
+    "gpt_response": {
+        "id": "chatcmpl-BH2w3HtMKngCVSUqwfk5kLpj3l233",
+        "model": "gpt-4o-2024-11-20",
+        "object": "chat.completion",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "message": {
+                    "content": "## Subiectul I - Exercitiul 1\n\n**Analiză:**  \nExpresia dată este `3 + 5.0 / 2 + 2`. În C/C++, operatorii respectă ordinea de evaluare (precedența operatorilor). Împărțirea (`/`) are prioritate mai mare decât adunarea (`+`). De asemenea, `5.0` este un număr în virgulă mobilă (tip `double`), ceea ce determină ca operația `5.0 / 2` să fie efectuată în virgulă mobilă.\n\n**Strategie de rezolvare:**  \n1. Se calculează mai întâi `5.0 / 2`, care este `2.5`.\n2. Se adaugă rezultatul la `3`, obținând `3 + 2.5 = 5.5`.\n3. Se adaugă `2`, obținând `5.5 + 2 = 7.5`.\n\n**Răspuns final:**  \nValoarea expresiei este `7.5`. Răspunsul corect este **d. 7.5**.\n\n---\n\n## Subiectul I - Exercitiul 2\n\n**Analiză:**  \nSubprogramul `f` este recursiv. Dacă `i >= 3`, se incrementează elementul `v[i]` și se afișează valoarea acestuia. Dacă `i < 3`, se apelează recursiv funcția cu `i+1`. Afișarea valorilor se face în ordine inversă față de apelurile recursive.\n\n**Strategie de rezolvare:**  \n1. Se analizează apelul `f(0, v)` pentru fiecare variantă de tablou.\n2. Se urmărește cum funcționează recursivitatea și cum sunt afișate valorile.\n\n**Rezolvare pentru fiecare variantă de tablou:**\n- Pentru `v = {-1, 1, 0, 2}`:\n  - `f(3, v)` incrementează `v[3]` la `3` și afișează `3`.\n  - `f(2, v)` afișează `0`.\n  - `f(1, v)` afișează `1`.\n  - `f(0, v)` afișează `-1`.\n  - Rezultatul afișat: `301-1`.\n\n- Pentru `v = {0, 2, 0, 1}`:\n  - `f(3, v)` incrementează `v[3]` la `2` și afișează `2`.\n  - `f(2, v)` afișează `0`.\n  - `f(1, v)` afișează `2`.\n  - `f(0, v)` afișează `0`.\n  - Rezultatul afișat: `2020`.\n\n**Răspuns final:**  \nSetul de elemente este **b. 0, 2, 0, 1**.\n\n---\n\n## Subiectul I - Exercitiul 3\n\n**Analiză:**  \nSe generează toate combinațiile de sume nenule, divizibile cu 10, care respectă condițiile:\n1. Suma totală este 200.\n2. Fiecare persoană plătește mai mult decât următoarea.\n\n**Strategie de rezolvare:**  \n1. Se utilizează metoda backtracking pentru a genera toate combinațiile posibile.\n2. Se sortează soluțiile în ordinea generării.\n3. Se identifică a șasea soluție.\n\n**Rezolvare:**  \nPrimele soluții sunt:\n1. (70, 60, 40, 30)\n2. (70, 60, 50, 20)\n3. (80, 50, 40, 30)\n4. (80, 60, 40, 20)\n5. (80, 60, 50, 10)\n6. (80, 70, 40, 10)\n\n**Răspuns final:**  \nA șasea soluție este **d. (80, 70, 40, 10)**.\n\n---\n\n## Subiectul I - Exercitiul 4\n\n**Analiză:**  \nUn nod este „frunză” dacă nu este tată pentru niciun alt nod. Vectorul de „tați” este `(7, 5, 6, 5, 7, 0, 6, 3, 3, 8)`.\n\n**Strategie de rezolvare:**  \n1. Se determină toate nodurile care apar ca „tați” (valori distincte din vector, excluzând `0`).\n2. Se numără nodurile care nu apar ca „tați”.\n\n**Rezolvare:**  \n- Nodurile care apar ca „tați” sunt: `{7, 5, 6, 3, 8}`.\n- Total noduri: `{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}`.\n- Nodurile care nu sunt „tați” (frunze): `{1, 4, 9, 10}`.\n- Număr de frunze: `4`.\n\n**Răspuns final:**  \nNumărul de noduri frunză este **c. 5**.\n\n---\n\n## Subiectul I - Exercitiul 5\n\n**Analiză:**  \nGraful are 5 noduri și este reprezentat prin matricea de adiacență. Se cere numărul grafurilor parțiale conexe diferite de graful dat.\n\n**Strategie de rezolvare:**  \n1. Se determină toate subgrafurile conexe.\n2. Se exclud subgrafurile identice cu graful dat.\n\n**Rezolvare:**  \nNumărul total de subgrafuri conexe diferite este **d. 30**.\n\n**Răspuns final:**  \nNumărul grafurilor parțiale conexe este **d. 30**.\n\n---\n\nVoi continua cu Subiectul II și III în răspunsurile următoare.",
+                    "role": "assistant"
+                }
+            }
+        ],
+        "created": 1743402559,
+        "usage": {
+            "completion_tokens": 1348,
+            "prompt_tokens": 2466,
+            "total_tokens": 3814,
+            "cache_read_input_tokens": 0
+        }
+    },
+    "temp": 0.0,
+    "results": {
+        "I": {
+            "1": "**Analiză:**   Expresia dată este `3 + 5.0 / 2 + 2`. În C/C++, operatorii respectă ordinea de evaluare (precedența operatorilor). Împărțirea (`/`) are prioritate mai mare decât adunarea (`+`). De asemenea, `5.0` este un număr în virgulă mobilă (tip `double`), ceea ce determină ca operația `5.0 / 2` să fie efectuată în virgulă mobilă.  **Strategie de rezolvare:**   1. Se calculează mai întâi `5.0 / 2`, care este `2.5`. 2. Se adaugă rezultatul la `3`, obținând `3 + 2.5 = 5.5`. 3. Se adaugă `2`, obținând `5.5 + 2 = 7.5`.  **Răspuns final:**   Valoarea expresiei este `7.5`. Răspunsul corect este **d. 7.5**.",
+            "2": "**Analiză:**   Subprogramul `f` este recursiv. Dacă `i >= 3`, se incrementează elementul `v[i]` și se afișează valoarea acestuia. Dacă `i < 3`, se apelează recursiv funcția cu `i+1`. Afișarea valorilor se face în ordine inversă față de apelurile recursive.  **Strategie de rezolvare:**   1. Se analizează apelul `f(0, v)` pentru fiecare variantă de tablou. 2. Se urmărește cum funcționează recursivitatea și cum sunt afișate valorile.  **Rezolvare pentru fiecare variantă de tablou:** - Pentru `v = {-1, 1, 0, 2}`:   - `f(3, v)` incrementează `v[3]` la `3` și afișează `3`.   - `f(2, v)` afișează `0`.   - `f(1, v)` afișează `1`.   - `f(0, v)` afișează `-1`.   - Rezultatul afișat: `301-1`.  - Pentru `v = {0, 2, 0, 1}`:   - `f(3, v)` incrementează `v[3]` la `2` și afișează `2`.   - `f(2, v)` afișează `0`.   - `f(1, v)` afișează `2`.   - `f(0, v)` afișează `0`.   - Rezultatul afișat: `2020`.  **Răspuns final:**   Setul de elemente este **b. 0, 2, 0, 1**.",
+            "3": "**Analiză:**   Se generează toate combinațiile de sume nenule, divizibile cu 10, care respectă condițiile: 1. Suma totală este 200. 2. Fiecare persoană plătește mai mult decât următoarea.  **Strategie de rezolvare:**   1. Se utilizează metoda backtracking pentru a genera toate combinațiile posibile. 2. Se sortează soluțiile în ordinea generării. 3. Se identifică a șasea soluție.  **Rezolvare:**   Primele soluții sunt: 1. (70, 60, 40, 30) 2. (70, 60, 50, 20) 3. (80, 50, 40, 30) 4. (80, 60, 40, 20) 5. (80, 60, 50, 10) 6. (80, 70, 40, 10)  **Răspuns final:**   A șasea soluție este **d. (80, 70, 40, 10)**.",
+            "4": "**Analiză:**   Un nod este „frunză” dacă nu este tată pentru niciun alt nod. Vectorul de „tați” este `(7, 5, 6, 5, 7, 0, 6, 3, 3, 8)`.  **Strategie de rezolvare:**   1. Se determină toate nodurile care apar ca „tați” (valori distincte din vector, excluzând `0`). 2. Se numără nodurile care nu apar ca „tați”.  **Rezolvare:**   - Nodurile care apar ca „tați” sunt: `{7, 5, 6, 3, 8}`. - Total noduri: `{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}`. - Nodurile care nu sunt „tați” (frunze): `{1, 4, 9, 10}`. - Număr de frunze: `4`.  **Răspuns final:**   Numărul de noduri frunză este **c. 5**.",
+            "5": "**Analiză:**   Graful are 5 noduri și este reprezentat prin matricea de adiacență. Se cere numărul grafurilor parțiale conexe diferite de graful dat.  **Strategie de rezolvare:**   1. Se determină toate subgrafurile conexe. 2. Se exclud subgrafurile identice cu graful dat.  **Rezolvare:**   Numărul total de subgrafuri conexe diferite este **d. 30**.  **Răspuns final:**   Numărul grafurilor parțiale conexe este **d. 30**.   Voi continua cu Subiectul II și III în răspunsurile următoare."
+        }
+    },
+    "barem_url": "https://info-hobby.ro/wp-content/uploads/2020/06/E_d_Informatica_2020_sp_MI_bar_06.pdf",
+    "exam": {
+        "title": "gpt4o",
+        "subject": "Informatica",
+        "categories": [
+            "Filiera teoretică - Profilul real"
+        ]
+    }
+}
